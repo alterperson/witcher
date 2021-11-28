@@ -58,3 +58,20 @@ iframe {
   max-width: 1110px;
   margin: 0 auto;
 }
+
+@media (min-height: 900px) {
+  .present {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+
+  .present__container {
+    flex-grow: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-height: 1200px;
+  }
+}
