@@ -36,3 +36,9 @@
 .navigation__link--kinopoisk {
   background-image: url("../../img/kinopoisk.svg");
 }
+
+@media (max-width: 750px) {
+  .navigation__list {
+    display: none;
+  }
+}
