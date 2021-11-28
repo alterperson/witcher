@@ -3,6 +3,7 @@
 @import "page.css";
 @import "./blocks/header.css";
 @import "./blocks/navigation.css";
+@import "./blocks/burger.css";
 @import "./blocks/present.css";
 @import "./blocks/tabs.css";
 @import "./blocks/card.css";
