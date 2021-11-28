@@ -15,6 +15,7 @@
 }
 
 .present__tagline {
+  max-width: 350px;
   line-height: 130%;
   margin-bottom: 54px;
 }
@@ -28,4 +29,9 @@
   background-size: cover;
   filter: drop-shadow(-4px 6px 10px rgba(10, 10, 10, 0.51));
   border-radius: 2px;
+  transition: filter 0.3s ease-in-out;
+}
+
+.present__btn:hover {
+  filter: drop-shadow(-4px 6px 10px rgba(10, 10, 10, 0.51)) brightness(1.2);
 }
